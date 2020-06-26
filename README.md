@@ -63,28 +63,18 @@ located at the bottom of the page. This will allow your main.tex file to compile
 To cite something you have to first add a citation to the bibliography.bib file in your local directory.
 
 ### Here is an example format for a citation in the bibliography file:
-
 	@misc{ call_tag,
-
 		address = {Example Place},
-
 		title = {Example Title},
-
 		abstract = {Details of article you are referencing},
-
 		booktitle = {Example Title},
-
 		publisher = {Example Publisher},
-
 		author = {Example Author},
-
 		month = {Dec},
-
 		year = {2017},
-
 		file = {Example File Extension, to something like Zotero},
-
 	}
+
 
 
 ### To add a citation to elements in your local directory:
