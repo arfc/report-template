@@ -15,7 +15,7 @@ This repository is intended as a template to standardize and ease the initializa
 This repository serves as a template, for more information on making and using a repository go to https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template.
 
 # How to Initialize this Repository:
-After you have cloned this repository, made your changes, and prepared 
+After you have cloned this repository, and are ready to see how it renders, perform the following commands based on which type of document you are trying to produce. 
 
 Run the command
 `make {insert type here}`
@@ -54,7 +54,7 @@ Open the title.tex file and remove the % from infront of the lines
 	
 	%\bibliographystyle{unsrt}
 	
-located at the bottom of the page. This will allow your main.tex file to compile and render into your title file. 
+located at the bottom of the page. This will allow your main.tex file, or any other files you want to use the input command on, to compile and render into your title file. 
 
 
 
