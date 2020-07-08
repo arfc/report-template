@@ -3,10 +3,6 @@ This repository is intended as a template to standardize and ease the initializa
 
 # How to Use this Template:
 
-This repository serves as a template, for information on making and using a repository go to https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template.
-
-### The overview of this process is:
-
 1. Select the option to "Use this template," located next to the option to clone this repository.
 2. Name the repository, and select "Create repository from template."
 3. Clone your repository with SSH keys.
@@ -15,7 +11,10 @@ This repository serves as a template, for information on making and using a repo
 	* Enter `git remote add upstream git@github.com:USERNAME/REPONAME`
 4. Now you can make edits and changes to the files on your device and push changes to your Github repository as with any other repository.
 
-# How to Initialize this repository:
+
+This repository serves as a template, for more information on making and using a repository go to https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template.
+
+# How to Initialize this Repository:
 After you have cloned this repository, made your changes, and prepared 
 
 Run the command
@@ -34,11 +33,11 @@ For zip, insert `zip`.
 
 *Ex: To make as a pdf, the full command should be: `make all-via-pdf`*
 
-### To clean your local directory run:
+### To Clean your Local Directory Run:
 
 `make clean` or `make realclean`
 
-### Some initialization notes:
+### Some Initialization Notes:
 If the make commands yield errors of:
 
 	I found no \citation commands---while reading file title.aux
@@ -60,9 +59,9 @@ located at the bottom of the page. This will allow your main.tex file to compile
 
 
 # Adding Citations:
-To cite something you have to first add a citation to the bibliography.bib file in your local directory.
+To cite something you have to first add a citation to the bibliography.bib file in your local directory, then insert a citation tag to the element you are citing.
 
-### Here is an example format for a citation in the bibliography file:
+### Example Format for a Citation in the Bibliography File:
 	@misc{ call_tag,
 		address = {Example Place},
 		title = {Example Title},
@@ -77,7 +76,7 @@ To cite something you have to first add a citation to the bibliography.bib file 
 
 
 
-### To add a citation to elements in your local directory:
+### Adding a Citation to Elements in your Local Directory:
 
 	This sentence is used as an example citation call ~\cite{call_tag}.
 
