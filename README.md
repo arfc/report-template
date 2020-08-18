@@ -1,5 +1,10 @@
 # Purpose of this Repository:
-This repository is intended as a template to standardize and ease the initialization process for Technical Reports from members of the Advanced Reactors and Fuel Cycles group at the University of Illinois at Urbana-Champaign. While this version of the template is geared towards an ARFC Member's report, it can be adapted to any individual's needs.
+This repository is intended as a template to standardize and ease the initialization 
+process for Technical Reports from members of the Advanced Reactors and Fuel 
+Cycles group at the University of Illinois at Urbana-Champaign. While this version 
+of the template is geared towards an ARFC Member's report, it can be adapted to 
+any individual's needs.
+
 
 # How to Use this Template:
 
@@ -12,10 +17,14 @@ This repository is intended as a template to standardize and ease the initializa
 4. Now you can make edits and changes to the files on your device and push changes to your Github repository as with any other repository.
 
 
-This repository serves as a template, for more information on making and using a repository go to https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template.
+This repository serves as a template, for more information on making and using a template repository, see the 
+[appropriate help article](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
+
 
 # How to Initialize this Repository:
-After you have cloned this repository, and are ready to see how it renders, perform the following commands based on which type of document you are trying to produce. 
+After you have cloned this repository and are ready to see how it renders, 
+perform the following commands based on which type of document you are trying to produce. 
+
 
 Run the command
 `make {insert type here}`
@@ -54,12 +63,16 @@ Open the title.tex file and remove the % from infront of the lines
 	
 	%\bibliographystyle{unsrt}
 	
-located at the bottom of the page. This will allow your main.tex file, or any other files you want to use the input command on, to compile and render into your title file. 
+located at the bottom of the page. This will allow your `main.tex` file, or any other files 
+you want to use the input command on, to compile and render into your title file. 
+
 
 
 
 # Adding Citations:
-To cite something you have to first add a citation to the bibliography.bib file in your local directory, then insert a citation tag to the element you are citing.
+To cite something you have to first add a citation to the bibliography.bib file in your local directory, 
+then insert a citation tag to the element you are citing.
+
 
 ### Example Format for a Citation in the Bibliography File:
 	@misc{ call_tag,
@@ -80,10 +93,12 @@ To cite something you have to first add a citation to the bibliography.bib file 
 
 	This sentence is used as an example citation call ~\cite{call_tag}.
 
-An important note is that the citation is made with what the example called "call_tag." The first line in the example bibliography.bib code contains this tag, and connects the content to the Reference section that will be generated in the document.
+An important note is that the citation is made with what the example called "call_tag." 
+The first line in the example bibliography.bib code contains this tag, and connects the 
+content to the Reference section that will be generated in the document.
+
 
 
 # ARFC Report Manual
 For ARFC specific guidelines for making a report, read the specifics at
 http://arfc.npre.illinois.edu/manual/guides/writing/report
-
